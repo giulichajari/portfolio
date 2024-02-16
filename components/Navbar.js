@@ -1,5 +1,5 @@
 import Link from "next/link";
-const NavBar = () => (
+const NavBar = () => {  return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
             <Link legacyBehavior href="">
@@ -26,6 +26,6 @@ const NavBar = () => (
             </div>
         </div>
     </nav>
-)
+)}
 
 export default NavBar;
