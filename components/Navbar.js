@@ -12,12 +12,12 @@ const NavBar = () => (
                 <ul className="navbar-nav ml-auto">
 
                     <li className="nav-item">
-                        <Link legacyBehavior href="/blog">
+                        <Link legacyBehavior href="/blog.page">
                             <a className="nav-link">Blog</a>
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link legacyBehavior href="/github">
+                        <Link legacyBehavior href="/github.page">
                             <a className="nav-link">GitHub</a>
                         </Link>
                     </li>
