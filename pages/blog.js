@@ -1,10 +1,10 @@
 import Layout from "../components/Layout";
 
-const Blog = () => {
+const blog = () => {
     return (
         <Layout>
             <h1>BLOGhello world</h1>
         </Layout>);
 };
 
-export default Blog;
+export default blog;
