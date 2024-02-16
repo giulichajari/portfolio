@@ -1,11 +1,12 @@
 import Layout from "../components/Layout";
-const Github = () => (
+const Github = () => {
+    return (
 
-    <Layout>
+        <Layout>
 
-<h1>GITHUB</h1>
-    </Layout>
-)
-
+            <h1>GITHUB</h1>
+        </Layout>
+    );
+};
 
 export default Github;
