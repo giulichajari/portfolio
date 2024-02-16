@@ -2,7 +2,7 @@ import Link from "next/link";
 const NavBar = () => (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
-            <Link legacyBehavior href="/">
+            <Link legacyBehavior href="">
                 <a className="navbar-brand" >Mi Portfolio</a>
             </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
