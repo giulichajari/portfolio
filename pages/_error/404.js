@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Layout from "../components/Layout";
 
-const custom404 = () => (
+const custom404 = () => {return (
   <Layout title="Page Not Found">
     <div className="text-center">
       <h1 className="display-1">404</h1>
@@ -10,6 +10,6 @@ const custom404 = () => (
       </p>
     </div>
   </Layout>
-);
+)};
 
 export default custom404;
