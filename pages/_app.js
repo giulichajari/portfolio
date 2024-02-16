@@ -7,9 +7,7 @@ export async function getServerSideProps() {
   }
 }
 
-export default function Error() {
-  return <h1>Esta página no se encuentra</h1>
-}
+
 export default function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />
   }
