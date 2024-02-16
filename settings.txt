@@ -1,0 +1,4 @@
+root: C:\Users\giuli\OneDrive\Escritorio\portfolio 
+path: C:\Program Files\nodejs 
+arch: 64 
+proxy: none
