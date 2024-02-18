@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-const Github = () => {
+const github = () => {
     return (
 
         <Layout>
@@ -9,4 +9,4 @@ const Github = () => {
     );
 };
 
-export default Github;
+export default github;

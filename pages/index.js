@@ -5,7 +5,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDiscord, faGoogle, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
-const Index = () => (
+const index = () => (
     <Layout>
         {/** Header card */}
         <div className="container py-4">
@@ -115,4 +115,4 @@ const Index = () => (
     </Layout>
 )
 
-export default Index;
+export default index;
